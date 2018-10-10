@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+#logo {
+	margin-top: 10px;
+}
+
+.navbar {
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	border-radius: 10px;
+	background: rgb(23, 135, 224);
+}
+
+#nav-parent {
+	margin-left: 20px;
+}
+
+.li-hover:hover {
+	background: rgb(48, 157, 242);
+	font-weight: 800;
+}
+.container {
+	margin-top: 20px;
+}  
