@@ -31,9 +31,11 @@
 				<input type="text" class="form-control" id="search_member_input"
 					placeholder="17806236254" style="width: 160px; display: inline;">
 				<button class="btn btn-primary" id="search_member_btn"
-					style="display: inline">搜索</button>
+					style="display: inline">
+					<span class="glyphicon glyphicon-search" aria-hidden="true"> </span> 搜索</button>
 				<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-				<a class="btn btn-primary" id="add_btn" style="display: inline" href="${APP_PATH}/userAdd">注册会员</a>
+				<a class="btn btn-primary" id="add_btn" style="display: inline" href="${APP_PATH}/userAdd">
+				<span class="glyphicon glyphicon-plus" aria-hidden="true"> </span> 注册会员</a>
 			</div>
 		</div>
 		<!-- table -->

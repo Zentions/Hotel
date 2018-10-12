@@ -25,7 +25,8 @@
 		<div class="row">
 		   <div class="col-md-4 col-md-offset-8">
 		       <input type="text" class="form-control" id="search_input" placeholder="17806236254" style="width:160px;display:inline;">
-	           <button class="btn btn-primary" id="search_btn" style="display:inline">搜索</button>
+	           <button class="btn btn-primary" id="search_btn" style="display:inline">
+	           <span class="glyphicon glyphicon-search" aria-hidden="true"> </span> 搜索</button>
 			</div>
 		</div>
 		<!-- table -->

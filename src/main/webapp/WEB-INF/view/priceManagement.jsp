@@ -30,13 +30,16 @@
     	<div class="row">
     		<div class="col-md-2 col-md-offset-1" id="fun_btn">
 	            <div class="margin_btn">
-	    	       <button type="button" class="btn btn-success" id="modify_button">修改价目</button>
+	    	       <button type="button" class="btn btn-success" id="modify_button">
+	    	       <span class="glyphicon glyphicon-pencil" aria-hidden="true"> </span> 修改价目</button>
 	            </div>
 		        <div class="margin_btn">
-			       <button type="button" class="btn btn-primary" id="add_button">新增价目</button>
+			       <button type="button" class="btn btn-primary" id="add_button">
+			       <span class="glyphicon glyphicon-plus" aria-hidden="true"> </span> 新增价目</button>
 		        </div>   
 		        <div class="margin_btn">
-			       <button type="button" class="btn btn-warning" id="del_button">删除价目</button>
+			       <button type="button" class="btn btn-warning" id="del_button">
+			       <span class="glyphicon glyphicon-remove" aria-hidden="true"> </span> 删除价目</button>
 		        </div>  
 	       </div>
           <div class="col-md-2 col-md-offset-2" id="array_button">    

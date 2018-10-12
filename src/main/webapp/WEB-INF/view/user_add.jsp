@@ -76,7 +76,8 @@
 					</div>
 					<div class="form-group">
 						<div class="col-md-2 col-md-offset-5">
-							<button type="button" class="btn btn-primary" id="user_save_btn" >立即注册</button>
+							<button type="button" class="btn btn-primary" id="user_save_btn" >
+							<span class="glyphicon glyphicon-send" aria-hidden="true"> </span> 立即注册</button>
 						</div>
 					</div>
 				</form>

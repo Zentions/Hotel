@@ -3,7 +3,9 @@ package com.yifei.dao;
 import com.yifei.bean.Record;
 import com.yifei.bean.RecordExample;
 import com.yifei.bean.RoomExample;
+import com.yifei.bean.Statistic;
 
+import java.util.Date;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 

@@ -25,9 +25,11 @@
 		<div class="row">
 		   <div class="col-md-6 col-md-offset-8">
 		           <input type="text" class="form-control" style="width:160px;display:inline;" id="search_input" placeholder="17806236254">
-	               <button class="btn btn-primary" id="search_btn" style="display:inline">搜索</button>
+	               <button class="btn btn-primary" id="search_btn" style="display:inline">
+	               <span class="glyphicon glyphicon-search" aria-hidden="true"> </span> 搜索</button>
 	               <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-	               <button id="delete_all_bth" class="btn btn-danger" style="display:inline">删除所有</button>
+	               <button id="delete_all_bth" class="btn btn-danger" style="display:inline">
+	               <span class="glyphicon glyphicon-remove" aria-hidden="true"> </span> 删除所有</button>
 
 			</div>
 		</div>

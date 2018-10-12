@@ -27,6 +27,7 @@
       </association>
    </resultMap>
   
+  
   <sql id="Example_Where_Clause">
     <where>
       <foreach collection="oredCriteria" item="criteria" separator="or">
@@ -85,7 +86,7 @@
       </foreach>
     </where>
   </sql>
-  
+
   <sql id="with_all_column">
     id,r_id, p_num, status, start_date, end_date, total_price,name,identification,type
   </sql>

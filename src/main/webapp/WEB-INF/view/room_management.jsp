@@ -31,9 +31,11 @@
 				<input type="text" class="form-control" id="search_input"
 					placeholder="102" style="width: 160px; display: inline;">
 				<button class="btn btn-primary" id="search_btn"
-					style="display: inline">搜索客房</button>
+					style="display: inline">
+					<span class="glyphicon glyphicon-search" aria-hidden="true"> </span> 搜索客房</button>
 				<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
-				<button class="btn btn-primary" id="add_btn" style="display: inline">添加客房</button>
+				<button class="btn btn-primary" id="add_btn" style="display: inline">
+				<span class="glyphicon glyphicon-plus" aria-hidden="true"> </span> 添加客房</button>
 			</div>
 		</div>
 		<!-- table -->
@@ -41,8 +43,8 @@
 			<div class="col-md-1" id="array_btn">
 				<div class="btn-group-vertical">
 					<button type="button" class="btn btn-primary" id="select_all_btn">所有客房</button>
-					<button type="button" class="btn btn-primary" id="select_u_btn">已租客房</button>
-					<button type="button" class="btn btn-primary" id="select_n_btn">可租客房</button>
+					<button type="button" class="btn btn-primary" id="select_u_btn"> 可租客房</button>
+					<button type="button" class="btn btn-primary" id="select_n_btn">已租客房</button>
 				</div>
 
 			</div>

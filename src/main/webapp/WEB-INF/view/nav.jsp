@@ -11,9 +11,9 @@
 <script type="text/javascript" src="${APP_PATH}/static/js/jquery.min.js"></script>
 <script src="${APP_PATH}/static/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 
-
-<div>
-	<img id="logo" src="${APP_PATH}/static/picture/logo.png">
+<div id="logo">
+	<span id="logo1">Zhenbo</span>
+	<span id="logo2">Hotel</span>
 </div>
 <!-- navigation -->
 <div>

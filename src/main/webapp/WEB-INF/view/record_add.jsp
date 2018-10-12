@@ -80,7 +80,8 @@
 
 						<div class="form-group">
 							<div class="col-md-2 col-md-offset-5">
-								<button type="button" class="btn btn-primary" id="user_save_btn">入住</button>
+								<button type="button" class="btn btn-primary" id="user_save_btn">
+								<span class="glyphicon glyphicon-book" aria-hidden="true"> </span> 入住</button>
 							</div>
 						</div>
 					</fieldset>
